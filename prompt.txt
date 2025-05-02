@@ -1,0 +1,21 @@
+"Write a complete Python GUI application using CustomTkinter to install fonts from ZIP files or folders containing ZIPs.
+The app should:
+
+Allow selecting either multiple ZIP files or a folder of ZIPs.
+
+Extract .ttf and .otf files from each ZIP.
+
+Install fonts to either:
+  a. The current user’s font folder if not run as admin, or
+  b. The system font folder (C:\Windows\Fonts) if run with admin rights.
+
+Add the font names to the Windows registry to ensure system recognition.
+
+Automatically refresh the Windows font cache and restart Explorer to make the fonts instantly available to software like Photoshop.
+
+Include:
+  a. A progress bar
+  b. A checkbox for "Install for all users"
+  c. A scrollable activity log
+  d. Admin rights check and auto-elevation if needed
+Return the full script, optimized for Windows, with comments and necessary error handling."
