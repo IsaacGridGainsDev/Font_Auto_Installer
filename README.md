@@ -30,29 +30,27 @@ A modern Python application that automates installing fonts from ZIP files or fo
    ```bash
    
    pip install -r requirements.txt
-   Run the application:
+3. **Run the application:**
 
    ```bash
    python font_installer_gui.py
 
-3. **🧾 Requirements**
+4. **🧾 Requirements**
 Python 3.9 or newer
 
 Windows 10 or 11
 
 Admin privileges (for full system font install)
 
-🗃️ requirements.txt
-      ```bash
+   **🗃️ requirements.txt**:
 
-      customtkinter
-      Install with:
+         customtkinter
 
-      ```bash
+   **Install with:**
 
       pip install -r requirements.txt
 
-4. **🖥️ How to Use:**
+5. **🖥️ How to Use:**
 Launch the app.
 
    Click "Select ZIPs" to choose individual font archives.
@@ -73,13 +71,13 @@ Launch the app.
 
    Windows Explorer restarts to reflect changes instantly.
 
-5. **⚠️ Troubleshooting**
+6. **⚠️ Troubleshooting**
    Fonts may not appear in software like Photoshop until Explorer is restarted (handled automatically).
 
    Without admin rights, fonts are installed for the current user only.
 
-6. **🪪 License**
+7. **🪪 License**
    MIT License
 
-7. **🙌 Credits**
+8. **🙌 Credits**
    Developed with ❤️ using Python and CustomTkinter
